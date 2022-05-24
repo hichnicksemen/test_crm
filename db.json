@@ -1,23 +1,92 @@
 {
+    "fields": [
+        {
+            "id": "1",
+            "name": "Способ доставки"
+            },
+        {
+            "id": "2",
+            "name": "Филиал"}
+    ],
     "pagination": {
-        "total_count": 1,
-        "limit": 1000
+        "total_count": 1344,
+        "limit": 200
     },
+    "statuses": [
+        {
+            "id": "1",
+            "name": "Новый"
+            },
+        {
+            "id": "2",
+            "name": "В работе"
+            }
+    ],
+    "managers": [
+        {
+            "id": "1",
+            "name": "Менеджер 1",
+            "phone":"79012223355",
+            "email": "test1@mail.com"
+            },
+        {
+            "id": "2",
+            "name": "Менеджер 2",
+            "phone":"79022223355",
+            "email": "test2@mail.com"
+            }
+    ],
     "orders": [
         {
-            "id": "855e7aab-89d9-ec11-8bb8-005056ac022d",
-            "name": "test_order",
-            "date_create": "2022-05-20 11:43",
-            "status": "7",
-            "price": null,
-            "cost": null,
-            "roistat": "123456",
-            "client_id": "686399d8-2cd7-ec11-8bb8-005056ac022d",
-            "manager_id": null,
-            "fields": {
-                "year": "2022"
+            "id": "123",
+            "name": "Новая сделка",
+            "date_create": "1393673200",
+            "status": "0",
+            "price": "2331",
+            "cost": {
+                "value": 1220,
+                "currency": "RUB"
             },
-            "products": null
+            "roistat": "3121512",
+            "client_id": "1",
+            "manager_id": "1",
+            "fields": {
+                "1": "Курьер",
+                "2": "Филиал 1"
+            },
+            "products":[
+            {
+               "id":"1",
+               "count":5,
+            }
+            ]
+        },
+        {
+            "id": "124",
+            "date_create": "1393673220",
+            "status": "1",
+            "price": "4123",
+            "cost"": {
+                "value": 2200,
+                "currency": "RUB"
+            },
+            "roistat": "3121514",
+            "client_id": "2",
+            "manager_id": "2",
+            "fields": {
+                "1": "Самовывоз",
+                "2": "Филиал 2"
+            },
+            "products":[
+              {
+               "id":"1",
+               "count":3,
+              },
+              {
+               "id":"2",
+               "count":1,
+              }
+            ]
         }
     ]
 }
