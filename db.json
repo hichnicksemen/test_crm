@@ -57,7 +57,7 @@
             "products":[
             {
                "id":"1",
-               "count":5,
+               "count":5
             }
             ]
         },
@@ -80,11 +80,11 @@
             "products":[
               {
                "id":"1",
-               "count":3,
+               "count":3
               },
               {
                "id":"2",
-               "count":1,
+               "count":1
               }
             ]
         }
